@@ -1,7 +1,8 @@
+import Client from './lib/client';
+import Server from './lib/server';
 
 
-
-module.export = {
-    Client: require("./lib/client"),
-    Server: require("./lib/server")
+export default {
+    Client,
+    Server
 }
