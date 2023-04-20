@@ -1,5 +1,5 @@
 {
-  "name": "jwhisper",
+  "name": "jwhisper-esm",
   "version": "1.0.1",
   "description": "RPC library compatible with JSON-WSP",
   "main": "index.js",
@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fernando Doglio",
+  "contributors": ["Hector Reigadas"],
   "license": "ISC",
   "dependencies": {
     "config": "^3.2.2",
