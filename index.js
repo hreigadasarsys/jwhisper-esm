@@ -1,5 +1,5 @@
-import Client from './lib/client';
-import Server from './lib/server';
+import Client from './lib/client.js';
+import Server from './lib/server.js';
 
 
 export default {

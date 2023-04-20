@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fernando Doglio",
-  "contributors": ["Hector Reigadas"],
+  "contributors": [
+    "Hector Reigadas"
+  ],
   "license": "ISC",
   "dependencies": {
     "config": "^3.2.2",
@@ -19,10 +21,7 @@
     "lib": "lib"
   },
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deleteman/jwhisper.git"
-  },
+  "repository": "git+https://github.com/hreigadasarsys/jwhisper-esm.git",
   "keywords": [
     "rpc",
     "json-wsp",
@@ -31,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/deleteman/jwhisper/issues"
   },
-  "homepage": "https://github.com/deleteman/jwhisper#readme"
+  "homepage": "https://github.com/deleteman/jwhisper#readme",
+  "private": true
 }
