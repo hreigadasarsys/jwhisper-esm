@@ -1,7 +1,7 @@
-import { EventEmitter } from 'events';
-import { ServerResponse, ClientRequest } from 'http';
-
 declare module 'jwhisper-esm' {
+    import { EventEmitter } from 'events';
+    import { ServerResponse, ClientRequest } from 'http';
+
     class Server extends EventEmitter {
         constructor(conf: object);
 
