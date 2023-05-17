@@ -21,7 +21,7 @@ declare module 'jwhisper-esm' {
         parseSchema(schema: object);
     }
 
-    export default {
+    export {
         Server,
         Client,
     };
